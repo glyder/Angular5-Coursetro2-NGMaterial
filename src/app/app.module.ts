@@ -6,6 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 // Added
+import { FormsModule } from '@angular/forms';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './modules/material.module';
 
@@ -19,7 +21,9 @@ import { MaterialModule } from './modules/material.module';
 
     // Added
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
